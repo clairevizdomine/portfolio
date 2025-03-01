@@ -1,0 +1,391 @@
+body {
+    margin: 0%;
+}
+
+header {
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+    position: sticky; /* Fixe le header en haut */
+    top: 0; /* Il reste collé en haut */
+    z-index: 1000; /* Passe au-dessus des autres éléments */
+    background-color: #B5AEE5;
+    padding: 20px 80px; /* Ajustement du padding */
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+        position: sticky;
+        background-color: #00091C;
+        color: #F9F9F9;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Ombre en bas */
+    }
+    
+
+nav {
+    display: flex;
+    justify-content: right; /* Centre les liens */
+    gap: 20px; /* Espacement entre les liens */
+}
+
+nav a {
+    text-decoration: none;
+    color: #F9F9F9;
+    padding: 10px 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #B5AEE5; /* Changement de couleur au survol */
+}
+
+
+a {
+    color: #FAFBFF;
+    text-decoration: none;
+}
+
+#background {
+    position: fixed;
+    width: 100%;
+}
+
+.container1 {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    color:#b5aee5;
+    position: relative;
+    z-index:1000;
+    margin-left: 60px;
+    font-family: "Quickdude", sans-serif;
+    font-size: 130px;
+    margin-top: -180px;
+}
+
+.container2 {
+    display: block;
+    position: relative;
+    background-color: #00091C;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    margin-top: -180px;
+}
+
+
+#presentation {
+    color: #F9F9F9;
+    font-family: "Jekaterina", sans-serif;
+    font-size: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.container2_in {
+    background-color: #000F3F;
+    border-radius: 10px;
+    padding-top: 100px;
+    margin-left: 320px;
+    margin-right: 320px;
+    padding-bottom: 100px;
+
+}
+
+#Claire {
+    height: 300px;
+    width: 300px;
+    padding-left: 100px;
+    margin-top: -40px;
+}
+
+#description {
+    font-family: "Barlow", sans-serif;
+    color:#F9F9F9;
+    font-size: 19px;
+    padding-left: 450px;
+    margin-top: -230px;
+}
+
+
+.container3 {
+    display: block;
+    position: relative;
+    background-color: #b5aee5;
+    padding-top: 70px;
+    padding-bottom: 200px;
+}
+
+
+.container3 {
+    display: block;
+    position: relative;
+    background-color: #b5aee5;
+    padding-top: 70px;
+    padding-bottom: 200px;
+}
+
+
+
+
+#competences {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+    color:#000F3F;
+    font-family: "Jekaterina", sans-serif;
+    font-size: 35px;
+}
+
+.html, .css, .vs, .github, .word, .excel, .pw, .canva {
+    transform: scale(0.9);
+    transition: transform 0.3s ease-in-out;
+}
+
+.html:hover, .css:hover, .vs:hover, .github:hover, 
+.word:hover, .excel:hover, .pw:hover, .canva:hover {
+    transform: scale(1.2);
+}
+
+
+.icones1 {
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+
+.icones2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 90px;
+}
+
+#MyProjects {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    font-family: "Jekaterina";
+    font-size: 35px;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+    color:  #000F3F;
+}
+
+.blacksmith {
+    position: relative;
+    background-color: #FAFBFF;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    margin-right: 50px;
+    text-align: center;
+    font-family: "Barlow", sans-serif;
+    border: solid 2px #b5aee5;
+}
+
+#blacksmith, #muses, #bonnieux {
+    width: 370px;
+    height: 350px;
+    margin-top: 10px;
+    border: solid 1px #b5aee5;
+}
+
+.blacksmith, .muses, .bonnieux {
+    position: relative;
+    background-color: #FAFBFF;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    margin-right: 50px;
+    text-align: center;
+    font-family: "Barlow", sans-serif;
+    border: solid 2px #b5aee5;
+}
+
+.project {
+    position: relative;
+    background-color: #FAFBFF;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    margin-right: 50px;
+    text-align: center;
+    font-family: "Barlow", sans-serif;
+    border: solid 2px #b5aee5;
+}
+
+#blacksmith {
+    width: 370px;
+    height: 350px;
+    position: relative;
+    margin-top: 10px;
+    ; border: solid 1px #b5aee5;
+}
+
+.exppro {
+    position: relative;
+    display: flex;
+    justify-items: center;
+}
+
+#artiste {
+    height: 600px;
+    width: 400px;
+}
+
+#boulangerie {
+    height: 600px;
+    width: 370px;
+}
+
+#boutique {
+    height: 600px;
+    width: 360px;
+}
+
+#expo {
+    height: 600px;
+    width: 420px;
+}
+
+#logo {
+    height: 600px;
+    width: 380px;
+}
+
+.centresinterets{
+    position: relative;
+    background-color: #000F3F;
+    color:#FAFBFF;
+    padding-top: 50px;
+    padding-bottom: 170px;
+}
+
+#c_i {
+    display: flex;
+    justify-content: center;
+    padding-top: 130px;
+    padding-bottom: 110px;
+    margin-top: -10px;
+    font-family: "Jekaterina", sans-serif;
+    font-size: 35px;
+}
+
+.c_i_1 {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Barlow", sans-serif;
+    font-size: 25px;
+}
+
+.icones_c_i_1 {
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#litterature {
+    margin-left: 460px;
+}
+
+#art {
+    margin-left: -20px;
+
+}
+
+#cinema {
+    margin-right: 480px;
+}
+
+
+.livre, .art, .cinema, .piano, .globe, .benevolat {
+    transform: scale(0.9);
+    transition: transform 0.3s ease-in-out;
+}
+
+.livre:hover, 
+.art:hover,
+.cinema:hover,
+.piano:hover,
+.globe:hover,
+.benevolat:hover
+ {
+    transform: scale(1.2);
+}
+.c_i_2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    font-family: "Barlow", sans-serif;
+    font-size: 25px;
+}
+
+
+#piano {
+    padding-bottom: -20px;
+    margin-left: 490px;
+}
+
+#voyage {
+    margin-left: 10px;
+}
+ 
+#benevolat {
+    padding-right: 460px;
+}
+
+.icones_c_i_2 {
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.contactsection {
+    margin-top: -20px;
+    position: relative;
+    background-color: #A5CFF9;
+    padding-top: 100px;
+    padding-bottom: 300px;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+    padding-bottom: 60px;
+    font-family: "Jekaterina";
+    font-size: 35px;
+}
+
+#iconecontact {
+    position: relative;
+    margin-left: 920px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.contact:hover {
+    transform: scale(0.8);
+}
+
+#getJoke {
+    position: relative;
+}
+
+
+
+.map {
+    position: relative;
+    width: 500px;
+    height: 400px;
+}
+
+
+
+
